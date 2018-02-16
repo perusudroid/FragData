@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FragData</string>
+    <string name="secong_frag">Second Fragment</string>
+    <string name="send_to_first_frag">Send to First Frag</string>
+    <string name="send_to_activity">Send to Activity</string>
+    <string name="first_frag">First Fragment</string>
+    <string name="send_to_secind_frag">Send to Second Frag</string>
+    <string name="main_activity">MainActivity</string>
+    <string name="send_to_first_fragment">Send to First Fragment</string>
+    <string name="send_to_second_fragment">Send to Second Fragment</string>
+</resources>
