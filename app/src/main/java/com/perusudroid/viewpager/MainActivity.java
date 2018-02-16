@@ -72,6 +72,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 FirstFragment mFirstFragment = (FirstFragment) getSupportFragmentManager().findFragmentByTag(String.valueOf(mInstance));
                                 mFirstFragment.setText(etTxt.getText().toString().trim());
                                 etTxt.setText("");
+                                if (viewPager.getCurrentItem() != 0) {
+                                    viewPager.setCurrentItem(0);
+                                }
+
                             }
                         }
 
@@ -91,7 +95,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                 SecondFragment mSecondFragment = (SecondFragment) getSupportFragmentManager().findFragmentByTag(String.valueOf(mInstance));
                                 mSecondFragment.setText(etTxt.getText().toString().trim());
                                 etTxt.setText("");
-                                viewPager.setCurrentItem(1);
+                                if (viewPager.getCurrentItem() != 1) {
+                                    viewPager.setCurrentItem(1);
+                                }
                             }
                         }
 
