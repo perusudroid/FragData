@@ -1,4 +1,4 @@
-# FragData
+# Communicate with activity and fragments
 
  1). Passing data from activity to fragment1 and fragment2
 
