@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ViewPager.iml" filepath="$PROJECT_DIR$/ViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FragData.iml" filepath="$PROJECT_DIR$/.idea/FragData.iml" />
+      <module fileurl="file://C:\Users\Intel\AndroidStudioProjects\FragData\ViewPager.iml" filepath="C:\Users\Intel\AndroidStudioProjects\FragData\ViewPager.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Intel\AndroidStudioProjects\FragData\app\app.iml" filepath="C:\Users\Intel\AndroidStudioProjects\FragData\app\app.iml" />
     </modules>
   </component>
 </project>

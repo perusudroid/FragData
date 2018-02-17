@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-
+    //
     private static final String TAG = MainActivity.class.getSimpleName();
     private ViewPager viewPager;
     private Button btnFirst, btnSecond;
